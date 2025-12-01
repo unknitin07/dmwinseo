@@ -1,162 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>DmWin | Official Skill-Based Gaming Platform</title>
-<meta name="description" content="DmWin is a premium skill-based gaming platform. Explore DmWin features, DmWin login guide, gameplay advantages, and registration process. Join the official DmWin community now." />
-<style>
- body {
-   font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
-   background: #ffffff;
-   color: #0a2a57;
- }
- header {
-   text-align: center;
-   padding: 20px;
-   background: #f7faff;
- }
- header img.logo {
-   width: 180px;
- }
- nav {
-   position: fixed;
-   top: 0;
-   right: 0;
-   padding: 15px;
- }
- nav .menu {
-   font-size: 26px;
-   cursor: pointer;
- }
- .dropdown {
-   display: none;
-   position: absolute;
-   right: 10px;
-   background: white;
-   border: 1px solid #d0d0d0;
-   padding: 10px;
-   border-radius: 6px;
- }
- nav:hover .dropdown {
-   display: block;
- }
- .banner {
-   text-align: center;
- }
- .banner img {
-   width: 100%;
-   max-width: 600px;
-   border-radius: 12px;
- }
- .btn {
-   display: block;
-   width: 250px;
-   margin: 20px auto;
-   padding: 14px;
-   background: linear-gradient(90deg, #1976ff, #0a3aad);
-   color: white;
-   text-align: center;
-   font-size: 20px;
-   text-decoration: none;
-   border-radius: 50px;
-   box-shadow: 0 0 12px rgba(0,0,0,0.2);
- }
- .container {
-   max-width: 1100px;
-   margin: 40px auto;
-   padding: 20px;
- }
- h1, h2, h3 {
-   color: #0a2a57;
- }
- footer {
-   text-align: center;
-   padding: 30px;
-   background: #f1f5ff;
-   margin-top: 40px;
-   color: #0a2a57;
- }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DmWin Login - India's premium skill-based gaming platform. Register now for exciting strategy games, instant rewards, and seamless gameplay. DmWin offers the best gaming experience with secure transactions.">
+    <meta name="keywords" content="dmwin, dmwin login, dmwin register, dmwin game, dmwin app, skill based games, strategy gaming platform, dmwin india, dmwin bonus, dmwin download">
+    <title>DmWin Login & Register | Premium Skill-Based Gaming Platform India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+            color: #1a1a2e;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 50px rgba(13, 39, 80, 0.1);
+        }
+
+        header {
+            background: #0d2750;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(13, 39, 80, 0.3);
+            position: relative;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .menu-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 12px 18px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .menu-toggle:hover {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 100%);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3),
+                        0 0 30px rgba(255, 255, 255, 0.2),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+
+        .legal-menu {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 30px rgba(13, 39, 80, 0.4);
+            overflow: hidden;
+            z-index: 1000;
+            border: 2px solid #0d2750;
+        }
+
+        .legal-menu.active {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .legal-menu a {
+            display: block;
+            padding: 12px 20px;
+            color: #0d2750;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid #e0e0e0;
+            font-weight: 600;
+        }
+
+        .legal-menu a:last-child {
+            border-bottom: none;
+        }
+
+        .legal-menu a:hover {
+            background: #0d2750;
+            color: white;
+            padding-left: 30px;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-section {
+            padding: 40px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        h1 {
+            color: #0d2750;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(13, 39, 80, 0.1);
+            font-weight: 700;
+        }
+
+        .intro-text {
+            font-size: 1.2em;
+            color: #1e5ab8;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+        }
+
+        .cta-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            margin: 40px auto;
+        }
+
+        .cta-button {
+            padding: 18px 40px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            border: none;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .cta-button:hover::before {
+            width: 400px;
+            height: 400px;
+        }
+
+        .cta-button span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .login-btn {
+            background: linear-gradient(135deg, #1e5ab8 0%, #0d2750 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(30, 90, 184, 0.4),
+                        0 0 30px rgba(30, 90, 184, 0.3),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .login-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(30, 90, 184, 0.6),
+                        0 0 50px rgba(30, 90, 184, 0.5),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+
+        .register-btn {
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4),
+                        0 0 30px rgba(37, 99, 235, 0.3),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .register-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(37, 99, 235, 0.6),
+                        0 0 50px rgba(37, 99, 235, 0.5),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+
+        .content-section {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        h2 {
+            color: #0d2750;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-left: 5px solid #1e5ab8;
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #1e5ab8;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.05em;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(13, 39, 80, 0.15);
+            transition: all 0.3s ease;
+            border: 2px solid #e8f0fe;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(30, 90, 184, 0.3),
+                        0 0 30px rgba(30, 90, 184, 0.2);
+            border-color: #1e5ab8;
+        }
+
+        .feature-card h3 {
+            color: #0d2750;
+            margin-top: 0;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #0d2750 0%, #1e5ab8 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(13, 39, 80, 0.4),
+                        0 0 40px rgba(30, 90, 184, 0.3);
+        }
+
+        .highlight h2 {
+            color: white;
+            border-left-color: white;
+        }
+
+        .highlight p {
+            color: white;
+        }
+
+        footer {
+            background: #0d2750;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            box-shadow: 0 -4px 20px rgba(13, 39, 80, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .cta-button {
+                font-size: 1.1em;
+                padding: 15px 30px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Shining animation for buttons */
+        @keyframes shine {
+            0% {
+                background-position: -200% center;
+            }
+            100% {
+                background-position: 200% center;
+            }
+        }
+
+        .cta-button {
+            background-size: 200% auto;
+            animation: shine 3s linear infinite;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <img src="https://ossimg.dmwinimage.com/DmWin/other/h5setting_20240917171851as5n.png" alt="DmWin Logo" class="logo">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="legal-menu" id="legalMenu">
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </header>
 
-<nav>
-  <div class="menu">☰</div>
-  <div class="dropdown">
-    <a href="terms.html">Terms & Conditions</a><br/>
-    <a href="privacy.html">Privacy Policy</a><br/>
-    <a href="disclaimer.html">Disclaimer</a>
-  </div>
-</nav>
+        <img src="https://ossimg.dmwinimage.com/DmWin/banner/Banner_202410282009436n8c.png" alt="DmWin Banner" class="banner">
 
-<header>
-  <img class="logo" src="https://ossimg.dmwinimage.com/DmWin/other/h5setting_20240917171851as5n.png" alt="DmWin Logo" />
-</header>
+        <section class="hero-section">
+            <h1>Welcome to DmWin - India's Premier Skill-Based Gaming Platform</h1>
+            <p class="intro-text">Experience the thrill of strategic gaming with DmWin, where your skills and intelligence determine your success. Join thousands of players who trust DmWin for secure, engaging, and rewarding gameplay.</p>
 
-<div class="banner">
-  <img src="https://ossimg.dmwinimage.com/DmWin/banner/Banner_202410282009436n8c.png" alt="DmWin Banner" />
-</div>
+            <div class="cta-container">
+                <a href="https://www.dmwin.in/#/register?invitationCode=638143438842" class="cta-button login-btn">
+                    <span>🎮 Login to DmWin</span>
+                </a>
+                <a href="https://www.dmwin.in/#/register?invitationCode=638143438842" class="cta-button register-btn">
+                    <span>🚀 Register Now</span>
+                </a>
+            </div>
+        </section>
 
-<a class="btn" href="https://www.dmwin.in/#/register?invitationCode=638143438842">Login</a>
-<a class="btn" href="https://www.dmwin.in/#/register?invitationCode=638143438842">Register</a>
+        <section class="content-section">
+            <h2>What is DmWin? Your Ultimate Gaming Destination</h2>
+            <p>DmWin has emerged as India's most trusted and innovative skill-based gaming platform, offering players an exceptional gaming experience that combines entertainment with strategy. Unlike traditional chance-based platforms, DmWin focuses exclusively on skill-oriented gameplay where your decisions, analytical thinking, and strategic planning are the keys to success.</p>
+            
+            <p>The DmWin platform represents the future of digital gaming in India, providing a sophisticated yet user-friendly environment where players can engage in various strategy-based games. Whether you're a seasoned gaming enthusiast or a newcomer looking to explore the world of strategic gaming, DmWin offers the perfect platform to test your skills and enjoy countless hours of engaging entertainment.</p>
 
-<div class="container">
-  <h1>DmWin – Official Skill-Based Gaming Platform</h1>
-  <p>
-    DmWin is a fast-growing and highly trusted skill-based gaming platform designed for players who want a premium, smooth, and secure gameplay experience. Unlike traditional gaming platforms, DmWin focuses on pure skill and strategy, ensuring that users enjoy a fair, transparent, and high-quality environment. Whether you are new or experienced, the DmWin platform allows you to improve your skills, understand game mechanisms, and compete in a structured format. With increasing popularity, searches for terms like <strong>DmWin</strong> and <strong>DmWin login</strong> have risen rapidly, showing its growing user base and credibility.
-  </p>
-  <p>
-    The core idea behind DmWin is simple: provide users with a professional gaming ecosystem where results depend on decision-making, timing, and player understanding—not luck. The interface is premium, clean, and fast, offering a smooth experience on any device. With mobile-friendly optimization, DmWin has become one of the most looked-up platforms for secure, skill-driven games. If you are looking for a reliable platform with easy access, the <strong>DmWin login</strong> process is designed to be quick and user-friendly.
-  </p>
+            <h2>DmWin Login - Simple, Fast, and Secure Access</h2>
+            <p>The DmWin login process has been designed with user convenience and security as top priorities. Accessing your DmWin account is incredibly straightforward, requiring just a few simple steps. Players can complete their DmWin login within seconds using their registered mobile number or email address, along with their secure password.</p>
 
-  <h2>Why DmWin Is Becoming Popular</h2>
-  <p>
-    One of the biggest reasons behind the growth of DmWin is its emphasis on a genuinely skill-based system. Every feature, gameplay module, and user interface element is structured to make the environment professional and competition-focused. The platform avoids any gambling-related elements and strictly highlights user skill. Players appreciate this clarity, which is why thousands search daily for <strong>DmWin</strong> and <strong>DmWin login</strong> online.
-  </p>
+            <p>Security is paramount at DmWin, and the login system incorporates advanced encryption technology to protect your account information. The platform employs multi-layer security protocols, including OTP verification for additional protection. Every DmWin login session is monitored to ensure unauthorized access is prevented, giving you complete peace of mind while you focus on enjoying your favorite games.</p>
 
-  <h2>How to Use DmWin – Complete Overview</h2>
-  <p>
-    Getting started with DmWin is extremely simple. The interface has been created for smooth navigation, and even newcomers find it easy to explore. To access the dashboard, players must complete the <strong>DmWin login</strong> process using the official link provided above. The system ensures data protection and secure authentication, offering a safe environment for all users. After login, players can explore game options, learn mechanics, analyze patterns, and improve their strategies.
-  </p>
-  <p>
-    The DmWin registration process is equally simple. With only a few essential details required, users can open their accounts within minutes. The streamlined design ensures no confusion at any step. Once registration is complete, the <strong>DmWin login</strong> link gives instant access to the player dashboard.
-  </p>
+            <p>For first-time users, the DmWin login interface is intuitive and welcoming. The platform provides clear instructions and helpful prompts to guide you through the process. Whether you're accessing DmWin from your mobile device, tablet, or desktop computer, the login experience remains consistently smooth and efficient across all platforms.</p>
 
-  <h2>Features of DmWin</h2>
-  <p>
-    DmWin offers a long list of premium features, including:
-  </p>
-  <ul>
-    <li>Fast and secure login system</li>
-    <li>Purely skill-based gameplay experience</li>
-    <li>Premium-quality interface and smooth performance</li>
-    <li>Beginner-friendly layout and guidance</li>
-    <li>Mobile optimized and supports all devices</li>
-    <li>No gambling elements – pure skill focus</li>
-  </ul>
+            <div class="highlight">
+                <h2>Why Choose DmWin for Your Gaming Experience?</h2>
+                <p>DmWin stands out in the competitive gaming landscape for numerous compelling reasons. The platform has been meticulously developed to provide an unmatched gaming experience that prioritizes player satisfaction, fairness, and enjoyment. Every aspect of DmWin, from game selection to user interface design, has been crafted with the player's needs in mind.</p>
+            </div>
 
-  <h2>How DmWin Supports Skill-Based Gaming</h2>
-  <p>
-    The platform motivates users to think strategically, analyze results, understand patterns, and make informed choices. This makes DmWin different from typical entertainment platforms and positions it as a reliable environment for players who want to improve their skills. The algorithm is transparent, ensuring that fairness remains a top priority. When users complete their <strong>DmWin login</strong>, they gain access to tools and features that help enhance their skill development.
-  </p>
+            <h2>Comprehensive Features of DmWin Platform</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>100% Skill-Based Gaming</h3>
+                    <p>DmWin exclusively offers skill-based games where your strategic thinking and decision-making abilities determine outcomes. Every game on the platform rewards intelligence, pattern recognition, and analytical skills rather than pure chance.</p>
+                </div>
 
-  <h2>DmWin Login – Fast & Easy Access</h2>
-  <p>
-    The official <strong>DmWin login</strong> link provided above ensures instant access to the dashboard. Simply click the login button, enter your credentials, and you're ready to explore the platform. This direct login method is trusted, secure, and designed to help users save time. For new players, the registration link is provided as well, ensuring a seamless starting experience.
-  </p>
+                <div class="feature-card">
+                    <h3>Advanced Security Systems</h3>
+                    <p>Your security is our priority. DmWin employs bank-level encryption, secure payment gateways, and regular security audits to ensure your personal information and transactions remain completely protected at all times.</p>
+                </div>
 
-  <h2>Final Thoughts</h2>
-  <p>
-    DmWin continues to grow as one of the leading skill-based gaming platforms. With a clean layout, secure systems, and a genuine skill-driven environment, it provides everything a player needs for a professional gaming experience. Whether you're searching for <strong>DmWin</strong> or <strong>DmWin login</strong>, this page gives you the complete official information, helping you join quickly and confidently.
-  </p>
-</div>
+                <div class="feature-card">
+                    <h3>Mobile-Optimized Platform</h3>
+                    <p>Enjoy DmWin anywhere, anytime. The platform is fully optimized for mobile devices, offering the same premium experience whether you're playing on a smartphone, tablet, or desktop computer.</p>
+                </div>
 
-<footer>
-  © 2025 DmWin | All rights reserved.
-</footer>
+                <div class="feature-card">
+                    <h3>24/7 Customer Support</h3>
+                    <p>Our dedicated support team is available round the clock to assist with any queries or concerns. Whether you need help with DmWin login, game rules, or account management, we're always here to help.</p>
+                </div>
 
+                <div class="feature-card">
+                    <h3>Fair Play Guarantee</h3>
+                    <p>DmWin maintains the highest standards of fairness and transparency. Our systems are regularly audited to ensure every player enjoys equal opportunities and fair gameplay conditions.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Instant Transactions</h3>
+                    <p>Experience lightning-fast deposits and withdrawals through multiple secure payment methods including UPI, bank transfers, and digital wallets. Your financial transactions are processed swiftly and securely.</p>
+                </div>
+            </div>
+
+            <h2>Getting Started with DmWin Registration</h2>
+            <p>Joining the DmWin community is remarkably simple and takes just a few minutes. The registration process has been streamlined to ensure new players can start their gaming journey without any complications or delays. To register on DmWin, you'll need basic information including your mobile number, email address, and a secure password of your choice.</p>
+
+            <p>The DmWin registration system guides you through each step with clear instructions and helpful tooltips. Once you've entered your details, you'll receive a verification code to confirm your mobile number, ensuring account security from the very beginning. After completing the simple verification process, your DmWin account is instantly activated and ready for use.</p>
+
+            <p>New users registering on DmWin are welcomed with attractive bonuses and promotional offers designed to enhance their initial gaming experience. These welcome benefits provide an excellent opportunity to explore the platform's various games and features while building your understanding of the strategic gameplay that makes DmWin unique.</p>
+
+            <h2>Diverse Game Portfolio on DmWin</h2>
+            <p>DmWin offers an extensive collection of skill-based games that cater to different preferences and skill levels. The platform continuously updates its game library to ensure players always have access to fresh and exciting content. Each game on DmWin has been carefully selected or developed to provide engaging gameplay that rewards strategic thinking and skillful execution.</p>
+
+            <h3>Strategy Games That Challenge Your Mind</h3>
+            <p>The strategy games available on DmWin are designed to test your analytical abilities and decision-making skills. These games require players to think several steps ahead, analyze patterns, and develop winning strategies. Popular titles include logic puzzles, pattern recognition games, and strategic prediction challenges that keep your mind engaged and entertained.</p>
+
+            <h3>Quick Decision Games</h3>
+            <p>For players who enjoy fast-paced action, DmWin offers games that test your ability to make quick, accurate decisions under time pressure. These games combine excitement with skill requirements, creating an adrenaline-pumping experience that rewards sharp reflexes and quick thinking.</p>
+
+            <h3>Analytical Gaming Experiences</h3>
+            <p>DmWin's analytical games appeal to players who enjoy studying trends, identifying patterns, and making data-driven decisions. These sophisticated games provide depth and complexity that can be explored over time, offering both immediate entertainment and long-term strategic challenges.</p>
+
+            <h2>The DmWin User Experience</h2>
+            <p>User experience is at the heart of everything DmWin does. The platform interface has been designed with careful attention to usability, ensuring that players can navigate easily and focus on enjoying their games. The clean, modern design uses intuitive layouts and clear visual hierarchies that make finding games, managing your account, and accessing features effortless.</p>
+
+            <p>DmWin's responsive design ensures optimal performance across all devices. Whether you're using a high-end smartphone or a budget device, the platform automatically adjusts to provide smooth gameplay and quick loading times. This commitment to accessibility means that every player can enjoy the full DmWin experience regardless of their device specifications.</p>
+
+            <h2>DmWin Community and Social Features</h2>
+            <p>Gaming on DmWin is not just about individual play; it's about being part of a vibrant community of like-minded enthusiasts. The platform fosters a friendly and competitive environment where players can connect, share strategies, and celebrate achievements together. Regular tournaments and competitions provide opportunities to test your skills against other players and climb the leaderboards.</p>
+
+            <p>The DmWin community values fair play, respect, and sportsmanship. Players can interact through various channels, exchange tips and strategies, and build friendships with fellow gaming enthusiasts. This social dimension adds an extra layer of enjoyment to the gaming experience, making DmWin more than just a platform – it's a community where skills are celebrated and friendships are formed.</p>
+
+            <h2>Responsible Gaming at DmWin</h2>
+            <p>DmWin is committed to promoting responsible gaming practices and ensuring that all players enjoy a healthy, balanced gaming experience. The platform provides various tools and resources to help players maintain control over their gaming activities. These include customizable time limits, spending controls, and self-exclusion options that empower players to manage their gaming habits effectively.</p>
+
+            <p>Education is a key component of DmWin's responsible gaming initiative. The platform provides comprehensive information about healthy gaming practices and offers support resources for players who may need assistance. DmWin believes that gaming should always remain an enjoyable form of entertainment, and the platform is dedicated to ensuring this remains the case for all users.</p>
+
+            <h2>DmWin Mobile Application</h2>
+            <p>For players who prefer the convenience of dedicated mobile applications, DmWin offers a feature-rich app that brings the complete gaming experience to your fingertips. The DmWin app is optimized for mobile devices, providing smooth performance, quick loading times, and an interface specifically designed for touchscreen interaction.</p>
+
+            <p>The mobile app includes all the features available on the web platform, ensuring you never miss out on any gaming opportunities. Push notifications keep you informed about special promotions, tournament announcements, and important account updates. The app's efficient design ensures minimal data usage while maintaining high-quality graphics and responsive gameplay.</p>
+
+            <h2>Payment Methods and Financial Security</h2>
+            <p>DmWin supports a comprehensive range of payment methods to ensure convenient transactions for all players. The platform accepts popular options including UPI payments, bank transfers, credit and debit cards, and various digital wallet services. This variety ensures that every player can find a payment method that suits their preferences and needs.</p>
+
+            <p>Financial security is treated with the utmost seriousness at DmWin. All transactions are processed through secure, encrypted channels that protect your financial information. The platform partners with trusted payment processors and employs advanced fraud detection systems to safeguard every transaction. Your banking details are never stored on DmWin servers, providing an additional layer of security and peace of mind.</p>
+
+            <h2>Customer Support Excellence</h2>
+            <p>The DmWin support team exemplifies the platform's commitment to player satisfaction. Available 24/7 through multiple channels including live chat, email, and telephone support, the team is always ready to assist with any questions or concerns. Whether you need help with DmWin login issues, game rules clarification, or account management, support staff respond promptly with helpful, accurate information.</p>
+
+            <p>The support team members are thoroughly trained in all aspects of the DmWin platform and undergo regular updates to stay current with new features and games. They approach every interaction with patience and professionalism, ensuring that even complex issues are resolved efficiently and satisfactorily.</p>
+
+            <h2>Join DmWin Today - Your Gaming Journey Awaits</h2>
+            <p>There has never been a better time to join the DmWin community. With an ever-expanding library of skill-based games, regular promotional offers, exciting tournaments, and a welcoming player community, DmWin offers everything you need for an exceptional gaming experience. The simple DmWin login and registration process means you can start playing within minutes.</p>
+
+            <p>Whether you're seeking mental stimulation through strategic challenges, looking to test your decision-making skills, or simply want to enjoy high-quality entertainment, DmWin provides the perfect platform. Join thousands of satisfied players who have discovered that DmWin offers the ideal combination of skill-based gaming, security, fairness, and fun.</p>
+
+            <div class="cta-container">
+                <a href="https://www.dmwin.in/#/register?invitationCode=638143438842" class="cta-button login-btn">
+                    <span>🎮 Login to DmWin</span>
+                </a>
+                <a href="https://www.dmwin.in/#/register?invitationCode=638143438842" class="cta-button register-btn">
+                    <span>🚀 Register Now</span>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 DmWin. All rights reserved.</p>
+            <p>Play Responsibly | Skill-Based Gaming Platform</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('legalMenu');
+            menu.classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('legalMenu');
+            const toggle = document.querySelector('.menu-toggle');
+            if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+                menu.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
